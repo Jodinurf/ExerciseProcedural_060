@@ -42,4 +42,12 @@ void JmlKandidat() {
 	int jumlahDiterima = 0;
 	int jumlahtidakditerima = 0;
 	for (int i = 0; i < 20; i++) {
+		if (status(NilRerata[i], Nil_MTK[i]) == "Diterima") {
+			jumlahDiterima++;
+		}
+		else {
+			jumlahtidakditerima++;
+		}
+
 	}
+}
