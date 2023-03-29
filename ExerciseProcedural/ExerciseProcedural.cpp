@@ -18,3 +18,15 @@ int Nil_MTK[20], NilBing[20];
 float NilRerata[20];
 string Nama[20];
 
+void input() {
+	for (int i = 0; i < 20; i++) {
+		cout << "Masukkan Nama Kandidat : ";
+		cin >> Nama[i];
+		cout << "Masukkan Nilai Matematika : ";
+		cin >> Nil_MTK[i];
+		cout << "Masukkan Nilai Bahasa Inggris : ";
+		cin >> NilBing[i];
+
+		NilRerata[i] = rerata(Nil_MTK[i], NilBing[i]);
+	}
+}
