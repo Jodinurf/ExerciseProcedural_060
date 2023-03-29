@@ -14,3 +14,7 @@ string status(double r, double n) {
 	}
 }
 
+int Nil_MTK[20], NilBing[20];
+float NilRerata[20];
+string Nama[20];
+
