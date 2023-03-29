@@ -30,3 +30,10 @@ void input() {
 		NilRerata[i] = rerata(Nil_MTK[i], NilBing[i]);
 	}
 }
+
+void TampilanLayar() {
+	cout << "Nama Kandidat\t\tStatus" << endl;
+	for (int i = 0; i < 20; i++) {
+		cout << Nama[i] << "\t\t" << status(NilRerata[i], Nil_MTK[i]) << endl;
+	}
+}
