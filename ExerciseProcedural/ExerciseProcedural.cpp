@@ -53,3 +53,10 @@ void JmlKandidat() {
 	cout << "Jumlah Kandidat yang Diterima : " << jumlahDiterima << endl;
 	cout << "Jumlah Kandidat yang Belum Diterima : " << jumlahtidakditerima << endl;
 }
+
+int main() {
+	input();
+	TampilanLayar();
+	JmlKandidat();
+	return 0;
+}
